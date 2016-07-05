@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Petes-mouse" MajorVersion="1" MinorVersion="8">
-	<KeyboardLayout>en-US</KeyboardLayout>
+	<KeyboardLayout>fi-FI</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="Bindings_MouseRoll" />
 	<MouseXDecay Value="1" />
@@ -280,8 +280,8 @@
 	</ToggleFlightAssist>
 	<YawToRollMode_FAOff Value="" />
 	<UseBoostJuice>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Apostrophe" />
+		<Secondary Device="Keyboard" Key="Key_LessThan" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
@@ -301,7 +301,7 @@
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
 	<OrbitLinesToggle>
-		<Primary Device="Keyboard" Key="Key_Equals" />
+		<Primary Device="Keyboard" Key="Key_Acute" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrbitLinesToggle>
 	<SelectTarget>
@@ -345,7 +345,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="Keyboard" Key="Key_Minus" />
+		<Primary Device="Keyboard" Key="Key_Plus" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
@@ -363,7 +363,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="Keyboard" Key="Key_Grave" />
+		<Primary Device="Keyboard" Key="Key_§" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
@@ -431,7 +431,7 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="Keyboard" Key="Key_Slash" />
+		<Secondary Device="Keyboard" Key="Key_Minus" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -443,7 +443,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</LandingGearToggle>
 	<MicrophoneMute>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_Apostrophe" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MicrophoneMute>
 	<MuteButtonMode Value="mute_toggle" />
