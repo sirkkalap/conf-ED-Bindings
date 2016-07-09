@@ -51,7 +51,7 @@
 	<PitchAxisRaw>
 		<Binding Device="SaitekX52" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.01000000" />
 	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
