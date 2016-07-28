@@ -741,7 +741,7 @@
 	<AutoBreakBuggyButton>
 		<Primary Device="Keyboard" Key="Key_X" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
 		<Primary Device="Keyboard" Key="Key_L" />
