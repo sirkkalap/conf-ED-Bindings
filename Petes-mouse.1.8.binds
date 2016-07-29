@@ -292,7 +292,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_K" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
