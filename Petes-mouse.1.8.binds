@@ -866,7 +866,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Buggy>
 	<FocusRadarPanel_Buggy>
-		<Primary Device="Keyboard" Key="Key_F11" />
+		<Primary Device="Keyboard" Key="Key_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel_Buggy>
 	<FocusRightPanel_Buggy>
