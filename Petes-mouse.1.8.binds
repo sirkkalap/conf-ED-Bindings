@@ -282,7 +282,7 @@
 	</ToggleFlightAssist>
 	<YawToRollMode_FAOff Value="" />
 	<UseBoostJuice>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Apostrophe" />
 		<Secondary Device="Keyboard" Key="Key_LessThan" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
