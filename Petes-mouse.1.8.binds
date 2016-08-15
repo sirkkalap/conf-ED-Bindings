@@ -186,7 +186,9 @@
 		<Primary Device="Keyboard" Key="Key_3">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_X">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Secondary>
 	</SetSpeed75>
 	<SetSpeed100>
 		<Primary Device="Keyboard" Key="Key_4">
