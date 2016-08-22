@@ -545,12 +545,12 @@
 	</CyclePreviousPanel>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
-	<MouseHeadlookSensitivity Value="0.50000000" />
+	<MouseHeadlookSensitivity Value="0.10000000" />
 	<HeadlookDefault Value="0" />
 	<HeadlookIncrement Value="0.00000000" />
 	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
 	<HeadlookResetOnToggle Value="1" />
-	<HeadlookSensitivity Value="1.00000000" />
+	<HeadlookSensitivity Value="0.28749999" />
 	<HeadLookReset>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
