@@ -529,7 +529,7 @@
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="SaitekX52" Key="Joy_6" />
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="Keyboard" Key="Key_Acute" />
