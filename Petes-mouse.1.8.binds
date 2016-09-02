@@ -32,7 +32,7 @@
 	<YawToRollSensitivity Value="0.31999999" />
 	<YawToRollButton>
 		<Primary Device="Mouse" Key="Mouse_1" />
-		<Secondary Device="Keyboard" Key="Key_LeftShift" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</YawToRollButton>
 	<RollAxisRaw>
@@ -128,7 +128,7 @@
 	<UseAlternateFlightValuesToggle>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</UseAlternateFlightValuesToggle>
 	<ThrottleAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -194,9 +194,7 @@
 		<Primary Device="Keyboard" Key="Key_4">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="Keyboard" Key="Key_Z">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed100>
 	<YawAxis_Landing>
 		<Binding Device="{NoDevice}" Key="" />
@@ -471,7 +469,7 @@
 	</PhotoCameraToggle>
 	<EnableMenuGroups Value="0" />
 	<UIFocus>
-		<Primary Device="Keyboard" Key="Key_LeftControl" />
+		<Primary Device="Keyboard" Key="Key_LeftShift" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
@@ -549,7 +547,7 @@
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_å" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Toggle>
 	<CycleNextPanel>
 		<Primary Device="Keyboard" Key="Key_E" />
