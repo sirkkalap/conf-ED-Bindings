@@ -502,15 +502,15 @@
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="Keyboard" Key="Key_F5" />
+		<Primary Device="Keyboard" Key="Key_F1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
-		<Primary Device="Keyboard" Key="Key_F6" />
+		<Primary Device="Keyboard" Key="Key_F2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
-		<Primary Device="Keyboard" Key="Key_F1" />
+		<Primary Device="Keyboard" Key="Key_F3" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ShowPGScoreSummaryInput>
