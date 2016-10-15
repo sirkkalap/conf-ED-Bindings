@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Petes-SaitekX52-3" MajorVersion="1" MinorVersion="8">
-	<KeyboardLayout>fi-FI</KeyboardLayout>
+	<KeyboardLayout>en-US</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
@@ -14,7 +14,7 @@
 	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.05000000" />
 	<MouseLinearity Value="1.00000000" />
-	<MouseGUI Value="0" />
+	<MouseGUI Value="1" />
 	<YawAxisRaw>
 		<Binding Device="SaitekX52" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
@@ -179,7 +179,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
-		<Primary Device="Keyboard" Key="Key_LessThan" />
+		<Primary Device="Keyboard" Key="Key_BackSlash" />
 		<Secondary Device="SaitekX52" Key="Joy_27" />
 	</SetSpeed75>
 	<SetSpeed100>
@@ -281,7 +281,7 @@
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_Apostrophe" />
+		<Secondary Device="Keyboard" Key="Key_BackSlash" />
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="Keyboard" Key="Key_K" />
@@ -293,7 +293,7 @@
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
 	<OrbitLinesToggle>
-		<Primary Device="Keyboard" Key="Key_Acute" />
+		<Primary Device="Keyboard" Key="Key_Equals" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrbitLinesToggle>
 	<SelectTarget>
@@ -337,7 +337,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="Keyboard" Key="Key_Plus" />
+		<Primary Device="Keyboard" Key="Key_Minus" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
@@ -349,8 +349,10 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_28" />
+		<Secondary Device="Keyboard" Key="Key_N">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Secondary>
 	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="Mouse" Key="Mouse_1" />
@@ -429,7 +431,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_25">
+			<Modifier Device="SaitekX52" Key="Joy_24" />
+		</Primary>
 		<Secondary Device="SaitekX52" Key="Joy_11" />
 	</LandingGearToggle>
 	<MicrophoneMute>
@@ -482,7 +486,7 @@
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
 	<CommsPanelFocusOptions Value="FocusOption_Show" />
-	<RolePanelFocusOptions Value="" />
+	<RolePanelFocusOptions Value="FocusOption_Nothing" />
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
@@ -491,7 +495,7 @@
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="SaitekX52" Key="Joy_28" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
 		<Primary Device="Keyboard" Key="Key_F1" />
@@ -532,7 +536,7 @@
 		<Secondary Device="Mouse" Key="Mouse_2" />
 	</UI_Back>
 	<UI_Toggle>
-		<Primary Device="Keyboard" Key="Key_Acute" />
+		<Primary Device="Keyboard" Key="Key_Equals" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Toggle>
 	<CycleNextPanel>
@@ -784,7 +788,7 @@
 	<BuggyToggleReverseThrottleInput>
 		<Primary Device="SaitekX52" Key="Joy_7" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="1" />
+		<ToggleOn Value="0" />
 	</BuggyToggleReverseThrottleInput>
 	<BuggyThrottleIncrement Value="0.10000000" />
 	<IncreaseSpeedButtonMax>
@@ -868,7 +872,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen_Buggy>
 	<HeadLookToggle_Buggy>
-		<PrKeyboard Device="Keyboard" Key="Key_Period" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HeadLookToggle_Buggy>
