@@ -137,9 +137,9 @@
 	</ThrottleAxis>
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="SaitekX52" Key="Joy_8" />
-		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="1" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Neg_Joy_RYAxis" />
+		<ToggleOn Value="0" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
 		<Primary Device="Keyboard" Key="Key_W" />
@@ -172,11 +172,11 @@
 	</SetSpeedZero>
 	<SetSpeed25>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_29" />
 	</SetSpeed25>
 	<SetSpeed50>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_28" />
 	</SetSpeed50>
 	<SetSpeed75>
 		<Primary Device="Keyboard" Key="Key_BackSlash" />
@@ -267,8 +267,8 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="SaitekX52" Key="Joy_32" />
-		<ToggleOn Value="1" />
+		<Secondary Device="SaitekX52" Key="Pos_Joy_UAxis" />
+		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<YawToRollMode_FAOff Value="" />
 	<UseBoostJuice>
@@ -280,12 +280,16 @@
 		<Secondary Device="SaitekX52" Key="Joy_7" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="SaitekX52" Key="Joy_29">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Primary>
+		<Secondary Device="Keyboard" Key="Key_K" />
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="Keyboard" Key="Key_K" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_27">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="{NoDevice}" Key="" />
@@ -349,7 +353,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="SaitekX52" Key="Joy_28" />
+		<Primary Device="SaitekX52" Key="Joy_28">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_N">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
@@ -389,7 +395,7 @@
 		<Secondary Device="SaitekX52" Key="Joy_14" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
-		<Binding Device="SaitekX52" Key="Joy_UAxis" />
+		<Binding Device="SaitekX52" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
@@ -431,9 +437,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="SaitekX52" Key="Joy_25">
-			<Modifier Device="SaitekX52" Key="Joy_24" />
-		</Primary>
+		<Primary Device="SaitekX52" Key="Joy_8" />
 		<Secondary Device="SaitekX52" Key="Joy_11" />
 	</LandingGearToggle>
 	<MicrophoneMute>
@@ -491,7 +495,7 @@
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="SaitekX52" Key="Joy_29" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
@@ -749,9 +753,9 @@
 		<Primary Device="SaitekX52" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget_Buggy>
-	<MouseTurretXMode Value="" />
+	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
-	<MouseTurretYMode Value="" />
+	<MouseTurretYMode Value="Bindings_MousePitch" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
 		<Binding Device="{NoDevice}" Key="" />
