@@ -14,7 +14,7 @@
 	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.05000000" />
 	<MouseLinearity Value="1.00000000" />
-	<MouseGUI Value="0" />
+	<MouseGUI Value="1" />
 	<YawAxisRaw>
 		<Binding Device="28DE11FF" Key="Pad_RStickX" />
 		<Inverted Value="0" />
@@ -167,22 +167,30 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
-		<Primary Device="Keyboard" Key="Key_X" />
-		<Secondary Device="28DE11FF" Key="Pad_RBumper">
+		<Primary Device="28DE11FF" Key="Pad_RBumper">
 			<Modifier Device="28DE11FF" Key="Pad_LBumper" />
+		</Primary>
+		<Secondary Device="28DE11FF" Key="Pad_B">
+			<Modifier Device="28DE11FF" Key="Pad_LThumb" />
 		</Secondary>
 	</SetSpeedZero>
 	<SetSpeed25>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="Pad_A">
+			<Modifier Device="28DE11FF" Key="Pad_LThumb" />
+		</Secondary>
 	</SetSpeed25>
 	<SetSpeed50>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="28DE11FF" Key="Pad_X">
+			<Modifier Device="28DE11FF" Key="Pad_LThumb" />
+		</Secondary>
 	</SetSpeed50>
 	<SetSpeed75>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="28DE11FF" Key="Pad_LThumb" />
+		<Secondary Device="28DE11FF" Key="Pad_Y">
+			<Modifier Device="28DE11FF" Key="Pad_LThumb" />
+		</Secondary>
 	</SetSpeed75>
 	<SetSpeed100>
 		<Primary Device="{NoDevice}" Key="" />
@@ -401,13 +409,13 @@
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</DeployHeatSink>
-	<ShipSpotLightToggle>
 		<Primary Device="28DE11FF" Key="Pad_DPadLeft">
 			<Modifier Device="28DE11FF" Key="Pad_B" />
 		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</DeployHeatSink>
+	<ShipSpotLightToggle>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
