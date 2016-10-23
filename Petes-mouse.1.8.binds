@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Petes-mouse" MajorVersion="1" MinorVersion="8">
-	<KeyboardLayout>en-US</KeyboardLayout>
+	<KeyboardLayout>fi-FI</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="Bindings_MouseRoll" />
 	<MouseXDecay Value="1" />
 	<MouseYMode Value="Bindings_MousePitchInverted" />
-	<MouseYDecay Value="1" />
+	<MouseYDecay Value="0" />
 	<MouseReset>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MouseReset>
 	<MouseSensitivity Value="1.00000000" />
 	<MouseDecayRate Value="1.20204079" />
-	<MouseDeadzone Value="0.02918367" />
+	<MouseDeadzone Value="0.02000000" />
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="1" />
 	<YawAxisRaw>
@@ -280,13 +280,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="Keyboard" Key="Key_Z">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<YawToRollMode_FAOff Value="" />
 	<UseBoostJuice>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
@@ -294,7 +296,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_K" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
@@ -307,7 +309,7 @@
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
 	<OrbitLinesToggle>
-		<Primary Device="Keyboard" Key="Key_Equals" />
+		<Primary Device="Keyboard" Key="Key_Ä" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrbitLinesToggle>
 	<SelectTarget>
@@ -351,7 +353,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="Keyboard" Key="Key_Minus" />
+		<Primary Device="Keyboard" Key="Key_Plus" />
 		<Secondary Device="Keyboard" Key="Key_7">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
@@ -371,7 +373,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="Keyboard" Key="Key_Grave" />
+		<Primary Device="Keyboard" Key="Key_§" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
@@ -441,7 +443,7 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="Keyboard" Key="Key_Slash" />
+		<Secondary Device="Keyboard" Key="Key_Minus" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -466,10 +468,6 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
-	<ChargeECM>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</ChargeECM>
 	<PhotoCameraToggle>
 		<Primary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
@@ -478,14 +476,6 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle>
 	<EnableMenuGroups Value="0" />
-	<WeaponColourToggle>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</WeaponColourToggle>
-	<EngineColourToggle>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</EngineColourToggle>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftControl" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -862,10 +852,6 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
-	<RecallDismissShip>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</RecallDismissShip>
 	<PhotoCameraToggle_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -908,36 +894,4 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HeadLookToggle_Buggy>
-	<OrderRequestDock>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderRequestDock>
-	<OrderDefensiveBehaviour>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderDefensiveBehaviour>
-	<OrderAggressiveBehaviour>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderAggressiveBehaviour>
-	<OrderFocusTarget>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderFocusTarget>
-	<OrderHoldFire>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderHoldFire>
-	<OrderHoldPosition>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderHoldPosition>
-	<OrderFollow>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OrderFollow>
-	<OpenOrders>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</OpenOrders>
 </Root>
