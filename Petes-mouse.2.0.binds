@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Petes-mouse" MajorVersion="2" MinorVersion="0">
-	<KeyboardLayout>fi-FI</KeyboardLayout>
+	<KeyboardLayout>en-US</KeyboardLayout>
 	<MouseXMode Value="Bindings_MouseRoll" />
 	<MouseXDecay Value="1" />
 	<MouseYMode Value="Bindings_MousePitchInverted" />
@@ -31,7 +31,7 @@
 	<YawToRollSensitivity Value="0.31999999" />
 	<YawToRollMode_FAOff Value="" />
 	<YawToRollButton>
-		<Primary Device="Mouse" Key="Mouse_1" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</YawToRollButton>
@@ -280,9 +280,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_Z">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
@@ -352,7 +350,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="Keyboard" Key="Key_Plus" />
+		<Primary Device="Keyboard" Key="Key_Minus" />
 		<Secondary Device="Keyboard" Key="Key_7">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
@@ -366,14 +364,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="Keyboard" Key="Key_N">
-			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		<Primary Device="Keyboard" Key="Key_Z">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="Keyboard" Key="Key_§" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Grave" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</PrimaryFire>
 	<SecondaryFire>
 		<Primary Device="Keyboard" Key="Key_Tab" />
@@ -405,7 +403,9 @@
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
 		<Primary Device="Keyboard" Key="Key_Insert" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_L">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Secondary>
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -442,7 +442,7 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="Keyboard" Key="Key_Minus" />
+		<Secondary Device="Keyboard" Key="Key_Slash" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -461,7 +461,7 @@
 	<MuteButtonMode Value="mute_toggle" />
 	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
@@ -511,7 +511,7 @@
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
 	<CommsPanelFocusOptions Value="FocusOption_Show" />
-	<RolePanelFocusOptions Value="" />
+	<RolePanelFocusOptions Value="FocusOption_Nothing" />
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
@@ -537,7 +537,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</Pause>
 	<FriendsMenu>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FriendsMenu>
 	<UI_Up>
@@ -1031,7 +1033,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="Keyboard" Key="Key_Minus" />
+		<Primary Device="Keyboard" Key="Key_Slash" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleFreeCam>
 	<VanityCameraOne>
@@ -1195,7 +1197,7 @@
 	</FixCameraWorldToggle>
 	<QuitCamera>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_Minus" />
+		<Secondary Device="Keyboard" Key="Key_Slash" />
 	</QuitCamera>
 	<ToggleAdvanceMode>
 		<Primary Device="{NoDevice}" Key="" />
