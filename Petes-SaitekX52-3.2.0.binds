@@ -133,9 +133,9 @@
 	<ThrottleAxis>
 		<Binding Device="SaitekX52" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.09999999" />
 	</ThrottleAxis>
-	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
+	<ThrottleRange Value="" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="SaitekX52" Key="Neg_Joy_RYAxis" />
@@ -902,13 +902,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewSecondaryFire>
 	<MultiCrewPrimaryUtilityFire>
-		<Primary Device="Mouse" Key="Mouse_3" />
+		<Primary Device="Mouse" Key="Mouse_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewPrimaryUtilityFire>
 	<MultiCrewSecondaryUtilityFire>
-		<Primary Device="Keyboard" Key="Key_C">
-			<Modifier Device="Mouse" Key="Mouse_4" />
-		</Primary>
+		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewSecondaryUtilityFire>
 	<MultiCrewThirdPersonMouseXMode Value="Bindings_MouseYaw" />
@@ -948,11 +946,11 @@
 		<Deadzone Value="0.00000000" />
 	</MultiCrewThirdPersonFovAxisRaw>
 	<MultiCrewThirdPersonFovOutButton>
-		<Primary Device="Keyboard" Key="Key_Numpad_Subtract" />
+		<Primary Device="Keyboard" Key="Key_PageUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonFovOutButton>
 	<MultiCrewThirdPersonFovInButton>
-		<Primary Device="Keyboard" Key="Key_Numpad_Add" />
+		<Primary Device="Keyboard" Key="Key_PageDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonFovInButton>
 	<MultiCrewCockpitUICycleForward>
