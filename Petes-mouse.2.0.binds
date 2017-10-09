@@ -619,6 +619,7 @@
 	</HeadLookYawAxis>
 	<MotionHeadlook Value="0" />
 	<HeadlookMotionSensitivity Value="1.00000000" />
+	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
