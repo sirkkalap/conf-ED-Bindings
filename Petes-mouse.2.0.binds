@@ -375,7 +375,7 @@
 	</PrimaryFire>
 	<SecondaryFire>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Space" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
