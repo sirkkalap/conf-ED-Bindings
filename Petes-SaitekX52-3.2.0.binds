@@ -167,15 +167,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
-		<Primary Device="Keyboard" Key="Key_F8" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="Keyboard" Key="Key_F7" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="SaitekX52" Key="Joy_29" />
 	</SetSpeed25>
 	<SetSpeed50>
-		<Primary Device="Keyboard" Key="Key_F6" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="SaitekX52" Key="Joy_28" />
 	</SetSpeed50>
 	<SetSpeed75>
@@ -599,6 +599,7 @@
 	</HeadLookYawAxis>
 	<MotionHeadlook Value="0" />
 	<HeadlookMotionSensitivity Value="1.00000000" />
+	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
 		<Binding Device="SaitekX52" Key="Joy_YAxis" />
 		<Inverted Value="0" />
