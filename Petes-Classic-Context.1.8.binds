@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Classic Context Petes" MajorVersion="1" MinorVersion="8">
+<Root PresetName="Petes Classic Context" MajorVersion="1" MinorVersion="8">
 	<KeyboardLayout>fi-FI</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="" />
