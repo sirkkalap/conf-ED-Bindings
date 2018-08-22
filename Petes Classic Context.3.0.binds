@@ -122,7 +122,7 @@
 	</PitchAxisAlternate>
 	<LateralThrustAlternate>
 		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</LateralThrustAlternate>
 	<VerticalThrustAlternate>
@@ -541,7 +541,7 @@
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
 	<CommsPanelFocusOptions Value="FocusOption_Show" />
-	<RolePanelFocusOptions Value="" />
+	<RolePanelFocusOptions Value="FocusOption_Nothing" />
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
