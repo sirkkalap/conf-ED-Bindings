@@ -364,11 +364,15 @@
 		<Secondary Device="SaitekX52" Key="Joy_5" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="Keyboard" Key="Key_N" />
+		<Primary Device="SaitekX52" Key="Joy_17">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="SaitekX52" Key="Joy_9" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="Keyboard" Key="Key_Grave" />
+		<Primary Device="SaitekX52" Key="Joy_19">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="SaitekX52" Key="Joy_10" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -560,7 +564,9 @@
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="SaitekX52" Key="Joy_4">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="Keyboard" Key="Key_Equals" />
@@ -638,7 +644,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="SaitekX52" Key="Joy_RZAxis" />
+		<Binding Device="SaitekX52" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
@@ -664,7 +670,7 @@
 		<Secondary Device="SaitekX52" Key="Joy_20" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="SaitekX52" Key="Joy_XAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
@@ -683,11 +689,11 @@
 	</CamTranslateZAxis>
 	<CamTranslateUp>
 		<Primary Device="Keyboard" Key="Key_R" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_7" />
 	</CamTranslateUp>
 	<CamTranslateDown>
 		<Primary Device="Keyboard" Key="Key_F" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_30" />
 	</CamTranslateDown>
 	<CamZoomAxis>
 		<Binding Device="{NoDevice}" Key="" />
