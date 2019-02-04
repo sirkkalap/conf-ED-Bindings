@@ -48,3 +48,4 @@ Temporary Items
 StartPreset.start
 StartPreset.start
 *.log
+BindingLoadingErrors.log
