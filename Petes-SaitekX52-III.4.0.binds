@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Petes-SaitekX52-3" MajorVersion="3" MinorVersion="0">
+<Root PresetName="Petes-SaitekX52-III" MajorVersion="4" MinorVersion="0">
 	<KeyboardLayout>fi-FI</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
@@ -1116,6 +1116,10 @@
 		<Primary Device="Keyboard" Key="Key_ScrollLock" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle_Buggy>
+	<PhotoCameraToggle_Humanoid>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PhotoCameraToggle_Humanoid>
 	<VanityCameraScrollLeft>
 		<Primary Device="Mouse" Key="Pos_Mouse_ZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1315,32 +1319,6 @@
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FStopInc>
-	<StoreEnableRotation>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</StoreEnableRotation>
-	<StorePitchCamera>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
-	</StorePitchCamera>
-	<StoreYawCamera>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
-	</StoreYawCamera>
-	<StoreCamZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</StoreCamZoomIn>
-	<StoreCamZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</StoreCamZoomOut>
-	<StoreToggle>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</StoreToggle>
 	<CommanderCreator_Undo>
 		<Primary Device="SaitekX52" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1469,6 +1447,14 @@
 		<Primary Device="Keyboard" Key="Key_Tab" />
 		<Secondary Device="SaitekX52" Key="Joy_4" />
 	</ExplorationSAAExitThirdPerson>
+	<ExplorationSAANextGenus>
+		<Primary Device="Keyboard" Key="Key_E" />
+		<Secondary Device="SaitekX52" Key="Joy_17" />
+	</ExplorationSAANextGenus>
+	<ExplorationSAAPreviousGenus>
+		<Primary Device="Keyboard" Key="Key_Q" />
+		<Secondary Device="SaitekX52" Key="Joy_19" />
+	</ExplorationSAAPreviousGenus>
 	<SAAThirdPersonMouseXMode Value="Bindings_MouseYaw" />
 	<SAAThirdPersonMouseXDecay Value="1" />
 	<SAAThirdPersonMouseYMode Value="Bindings_MousePitch" />
@@ -1513,4 +1499,253 @@
 		<Primary Device="Mouse" Key="Neg_Mouse_ZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonFovInButton>
+	<MouseHumanoidXMode Value="" />
+	<MouseHumanoidYMode Value="" />
+	<MouseHumanoidSensitivity Value="3.00000000" />
+	<HumanoidForwardAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</HumanoidForwardAxis>
+	<HumanoidForwardButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidForwardButton>
+	<HumanoidBackwardButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidBackwardButton>
+	<HumanoidStrafeAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</HumanoidStrafeAxis>
+	<HumanoidStrafeLeftButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidStrafeLeftButton>
+	<HumanoidStrafeRightButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidStrafeRightButton>
+	<HumanoidRotateAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</HumanoidRotateAxis>
+	<HumanoidRotateSensitivity Value="1.00000000" />
+	<HumanoidRotateLeftButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidRotateLeftButton>
+	<HumanoidRotateRightButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidRotateRightButton>
+	<HumanoidPitchAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</HumanoidPitchAxis>
+	<HumanoidPitchSensitivity Value="0.55000001" />
+	<HumanoidPitchUpButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidPitchUpButton>
+	<HumanoidPitchDownButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidPitchDownButton>
+	<HumanoidSprintButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</HumanoidSprintButton>
+	<HumanoidCrouchButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</HumanoidCrouchButton>
+	<HumanoidJumpButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidJumpButton>
+	<HumanoidPrimaryInteractButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidPrimaryInteractButton>
+	<HumanoidSecondaryInteractButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSecondaryInteractButton>
+	<HumanoidItemWheelButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidItemWheelButton>
+	<HumanoidItemWheelButton_XAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</HumanoidItemWheelButton_XAxis>
+	<HumanoidItemWheelButton_XLeft>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidItemWheelButton_XLeft>
+	<HumanoidItemWheelButton_XRight>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidItemWheelButton_XRight>
+	<HumanoidItemWheelButton_YAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</HumanoidItemWheelButton_YAxis>
+	<HumanoidItemWheelButton_YUp>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidItemWheelButton_YUp>
+	<HumanoidItemWheelButton_YDown>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidItemWheelButton_YDown>
+	<HumanoidItemWheel_AcceptMouseInput Value="0" />
+	<HumanoidPrimaryFireButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidPrimaryFireButton>
+	<HumanoidZoomButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</HumanoidZoomButton>
+	<HumanoidThrowGrenadeButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidThrowGrenadeButton>
+	<HumanoidMeleeButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidMeleeButton>
+	<HumanoidReloadButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidReloadButton>
+	<HumanoidSwitchWeapon>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSwitchWeapon>
+	<HumanoidSelectPrimaryWeaponButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectPrimaryWeaponButton>
+	<HumanoidSelectSecondaryWeaponButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectSecondaryWeaponButton>
+	<HumanoidSelectUtilityWeaponButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectUtilityWeaponButton>
+	<HumanoidSelectNextWeaponButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectNextWeaponButton>
+	<HumanoidSelectPreviousWeaponButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectPreviousWeaponButton>
+	<HumanoidHideWeaponButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidHideWeaponButton>
+	<HumanoidSelectNextGrenadeTypeButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectNextGrenadeTypeButton>
+	<HumanoidSelectPreviousGrenadeTypeButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectPreviousGrenadeTypeButton>
+	<HumanoidToggleFlashlightButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidToggleFlashlightButton>
+	<HumanoidToggleNightVisionButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidToggleNightVisionButton>
+	<HumanoidToggleShieldsButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidToggleShieldsButton>
+	<HumanoidSwitchToRechargeTool>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSwitchToRechargeTool>
+	<HumanoidSwitchToCompAnalyser>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSwitchToCompAnalyser>
+	<HumanoidSwitchToSuitTool>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSwitchToSuitTool>
+	<HumanoidToggleToolModeButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidToggleToolModeButton>
+	<HumanoidToggleMissionHelpPanelButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidToggleMissionHelpPanelButton>
+	<GalaxyMapOpen_Humanoid>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</GalaxyMapOpen_Humanoid>
+	<SystemMapOpen_Humanoid>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</SystemMapOpen_Humanoid>
+	<FocusCommsPanel_Humanoid>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</FocusCommsPanel_Humanoid>
+	<QuickCommsPanel_Humanoid>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</QuickCommsPanel_Humanoid>
+	<HumanoidOpenAccessPanelButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidOpenAccessPanelButton>
+	<HumanoidConflictContextualUIButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidConflictContextualUIButton>
+	<StoreEnableRotation>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreEnableRotation>
+	<StorePitchCamera>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</StorePitchCamera>
+	<StoreYawCamera>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</StoreYawCamera>
+	<StoreCamZoomIn>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreCamZoomIn>
+	<StoreCamZoomOut>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreCamZoomOut>
+	<StoreToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreToggle>
 </Root>
