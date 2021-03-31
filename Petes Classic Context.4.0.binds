@@ -1254,7 +1254,7 @@
 	<YawCameraMouse Value="" />
 	<PitchCamera>
 		<Binding Device="28DE11FF" Key="GamePad_RStickY" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
 	<FreeCamMouseSensitivity Value="5.00000000" />
@@ -1514,7 +1514,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonFovInButton>
-    <MouseHumanoidXMode Value="" />
+	<MouseHumanoidXMode Value="" />
 	<MouseHumanoidYMode Value="" />
 	<MouseHumanoidSensitivity Value="3.00000000" />
 	<HumanoidForwardAxis>
@@ -1676,15 +1676,21 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidHideWeaponButton>
 	<HumanoidSelectNextGrenadeTypeButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="28DE11FF" Key="GamePad_DPadUp">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceUp" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSelectNextGrenadeTypeButton>
 	<HumanoidSelectPreviousGrenadeTypeButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="28DE11FF" Key="GamePad_DPadDown">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceUp" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSelectPreviousGrenadeTypeButton>
 	<HumanoidToggleFlashlightButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="28DE11FF" Key="GamePad_DPadLeft">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceRight" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleFlashlightButton>
 	<HumanoidToggleNightVisionButton>
@@ -1712,8 +1718,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleToolModeButton>
 	<HumanoidToggleMissionHelpPanelButton>
-		<Primary Device="Keyboard" Key="Key_LeftShift">
-			<Hold Value="1" />
+		<Primary Device="28DE11FF" Key="GamePad_LThumb">
+			<Modifier Device="28DE11FF" Key="GamePad_RThumb" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleMissionHelpPanelButton>
