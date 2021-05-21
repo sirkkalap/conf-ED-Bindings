@@ -1576,6 +1576,11 @@
 		<Secondary Device="Keyboard" Key="Key_LeftShift" />
 		<ToggleOn Value="1" />
 	</HumanoidSprintButton>
+	<HumanoidWalkButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</HumanoidWalkButton>
 	<HumanoidCrouchButton>
 		<Primary Device="28DE11FF" Key="GamePad_FaceRight" />
 		<Secondary Device="Keyboard" Key="Key_LeftControl" />
