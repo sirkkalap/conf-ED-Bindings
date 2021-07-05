@@ -1706,6 +1706,30 @@
 		<Primary Device="28DE11FF" Key="GamePad_DPadDown" />
 		<Secondary Device="Keyboard" Key="Key_C" />
 	</HumanoidToggleShieldsButton>
+	<HumanoidClearAuthorityLevel>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidClearAuthorityLevel>
+	<HumanoidHealthPack>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidHealthPack>
+	<HumanoidBattery>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidBattery>
+	<HumanoidSelectFragGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectFragGrenade>
+	<HumanoidSelectEMPGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectEMPGrenade>
+	<HumanoidSelectShieldGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectShieldGrenade>
 	<HumanoidSwitchToRechargeTool>
 		<Primary Device="28DE11FF" Key="GamePad_DPadLeft" />
 		<Secondary Device="Keyboard" Key="Key_4" />
