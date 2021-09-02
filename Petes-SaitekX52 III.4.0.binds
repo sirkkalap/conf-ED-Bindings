@@ -182,13 +182,13 @@
 		<Primary Device="Keyboard" Key="Key_3">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="SaitekX52" Key="Joy_28" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
 		<Primary Device="Keyboard" Key="Key_4">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_28" />
 	</SetSpeed75>
 	<SetSpeed100>
 		<Primary Device="Keyboard" Key="Key_5">
@@ -296,9 +296,7 @@
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="SaitekX52" Key="Joy_27">
-			<Modifier Device="SaitekX52" Key="Joy_6" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="{NoDevice}" Key="" />
@@ -369,7 +367,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="SaitekX52" Key="Joy_32" />
+		<Primary Device="SaitekX52" Key="Joy_28">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Z" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -501,14 +501,14 @@
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="28DE11FF" Key="GamePad_DPadLeft">
-			<Modifier Device="28DE11FF" Key="GamePad_FaceLeft" />
+		<Secondary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Secondary>
 	</FocusLeftPanel>
 	<FocusCommsPanel>
 		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="28DE11FF" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" Key="GamePad_FaceLeft" />
+		<Secondary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Secondary>
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="1" />
@@ -518,14 +518,14 @@
 	</QuickCommsPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="28DE11FF" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" Key="GamePad_FaceLeft" />
+		<Secondary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Secondary>
 	</FocusRadarPanel>
 	<FocusRightPanel>
 		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="28DE11FF" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" Key="GamePad_FaceLeft" />
+		<Secondary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Secondary>
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="FocusOption_Nothing" />
@@ -553,7 +553,9 @@
 	</HeadLookToggle>
 	<Pause>
 		<Primary Device="Keyboard" Key="Key_P" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_29">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</Pause>
 	<FriendsMenu>
 		<Primary Device="Keyboard" Key="Key_F">
@@ -573,30 +575,32 @@
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_27">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</ExplorationFSSEnter>
 	<UI_Up>
-		<Primary Device="28DE11FF" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="SaitekX52" Key="Joy_POV1Up" />
 	</UI_Up>
 	<UI_Down>
-		<Primary Device="28DE11FF" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown" />
 		<Secondary Device="SaitekX52" Key="Joy_POV1Down" />
 	</UI_Down>
 	<UI_Left>
-		<Primary Device="28DE11FF" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="SaitekX52" Key="Joy_POV1Left" />
 	</UI_Left>
 	<UI_Right>
-		<Primary Device="28DE11FF" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="SaitekX52" Key="Joy_POV1Right" />
 	</UI_Right>
 	<UI_Select>
-		<Primary Device="28DE11FF" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="SaitekX52" Key="Joy_4" />
 	</UI_Select>
 	<UI_Back>
-		<Primary Device="28DE11FF" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="SaitekX52" Key="Joy_4">
 			<Modifier Device="SaitekX52" Key="Joy_6" />
 		</Secondary>
@@ -606,11 +610,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Toggle>
 	<CycleNextPanel>
-		<Primary Device="28DE11FF" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="SaitekX52" Key="Joy_17" />
 	</CycleNextPanel>
 	<CyclePreviousPanel>
-		<Primary Device="28DE11FF" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="SaitekX52" Key="Joy_19" />
 	</CyclePreviousPanel>
 	<CycleNextPage>
@@ -755,7 +759,7 @@
 		<Secondary Device="SaitekX52" Key="Pos_Joy_UAxis" />
 		<ToggleOn Value="0" />
 	</ToggleDriveAssist>
-	<DriveAssistDefault Value="1" />
+	<DriveAssistDefault Value="0" />
 	<MouseBuggySteeringXMode Value="" />
 	<MouseBuggySteeringXDecay Value="0" />
 	<MouseBuggyRollingXMode Value="" />
@@ -768,11 +772,11 @@
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
 	<SteerLeftButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_23" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerLeftButton>
 	<SteerRightButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_21" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
@@ -812,7 +816,7 @@
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="SaitekX52" Key="Joy_5" />
-		<Secondary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="Mouse" Key="Mouse_4" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="SaitekX52" Key="Joy_10" />
@@ -841,7 +845,7 @@
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
 		<Primary Device="SaitekX52" Key="Joy_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
@@ -853,11 +857,11 @@
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
 	<BuggyTurretYawLeftButton>
-		<Primary Device="SaitekX52" Key="Joy_23" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawLeftButton>
 	<BuggyTurretYawRightButton>
-		<Primary Device="SaitekX52" Key="Joy_21" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
@@ -873,8 +877,8 @@
 		<Primary Device="SaitekX52" Key="Joy_22" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretPitchDownButton>
-	<BuggyTurretMouseSensitivity Value="1.00000000" />
-	<BuggyTurretMouseDeadzone Value="0.05000000" />
+	<BuggyTurretMouseSensitivity Value="0.12940547" />
+	<BuggyTurretMouseDeadzone Value="0.01575000" />
 	<BuggyTurretMouseLinearity Value="1.00000000" />
 	<DriveSpeedAxis>
 		<Binding Device="SaitekX52" Key="Joy_ZAxis" />
@@ -935,6 +939,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RecallDismissShip>
+	<EnableMenuGroupsSRV Value="0" />
 	<UIFocus_Buggy>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
 		<Secondary Device="SaitekX52" Key="Joy_6" />
@@ -1363,46 +1368,50 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX52" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
 	<ExplorationFSSCameraPitchIncreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_22" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchIncreaseButton>
 	<ExplorationFSSCameraPitchDecreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_20" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX52" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
 	<ExplorationFSSCameraYawIncreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_21" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawIncreaseButton>
 	<ExplorationFSSCameraYawDecreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52" Key="Joy_23" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
 		<Primary Device="Mouse" Key="Pos_Mouse_ZAxis" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_7" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
 		<Primary Device="Mouse" Key="Neg_Mouse_ZAxis" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_30" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_7">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
 		<Primary Device="Keyboard" Key="Key_X" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_30">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
 		<Binding Device="{NoDevice}" Key="" />
@@ -1411,25 +1420,31 @@
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
 		<Primary Device="Keyboard" Key="Key_E" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis">
+			<Modifier Device="Mouse" Key="Mouse_2" />
+		</Secondary>
 	</ExplorationFSSRadioTuningX_Increase>
 	<ExplorationFSSRadioTuningX_Decrease>
 		<Primary Device="Keyboard" Key="Key_Q" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Neg_Mouse_ZAxis">
+			<Modifier Device="Mouse" Key="Mouse_2" />
+		</Secondary>
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
 		<Binding Device="SaitekX52" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
-	<FSSTuningSensitivity Value="0.24898523" />
+	<FSSTuningSensitivity Value="0.19900000" />
 	<ExplorationFSSDiscoveryScan>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_1">
+			<Hold Value="1" />
+		</Secondary>
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_4" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="Bindings_MouseYaw" />
 	<FSSMouseXDecay Value="1" />
@@ -1440,15 +1455,15 @@
 	<FSSMouseLinearity Value="1.49667776" />
 	<ExplorationFSSTarget>
 		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_2" />
 	</ExplorationFSSTarget>
 	<ExplorationFSSShowHelp>
 		<Primary Device="Keyboard" Key="Key_H" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="SaitekX52" Key="Joy_5" />
 		<ToggleOn Value="0" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
@@ -1467,9 +1482,9 @@
 	<SAAThirdPersonMouseXDecay Value="1" />
 	<SAAThirdPersonMouseYMode Value="Bindings_MousePitch" />
 	<SAAThirdPersonMouseYDecay Value="1" />
-	<SAAThirdPersonMouseSensitivity Value="17.76558113" />
+	<SAAThirdPersonMouseSensitivity Value="10.44482517" />
 	<SAAThirdPersonYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX52" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonYawAxisRaw>
@@ -1482,8 +1497,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonYawRightButton>
 	<SAAThirdPersonPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX52" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonPitchAxisRaw>
 	<SAAThirdPersonPitchUpButton>
@@ -1495,8 +1510,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonPitchDownButton>
 	<SAAThirdPersonFovAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX52" Key="Joy_UAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonFovAxisRaw>
 	<SAAThirdPersonFovOutButton>
@@ -1691,6 +1706,30 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleShieldsButton>
+	<HumanoidClearAuthorityLevel>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidClearAuthorityLevel>
+	<HumanoidHealthPack>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidHealthPack>
+	<HumanoidBattery>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidBattery>
+	<HumanoidSelectFragGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectFragGrenade>
+	<HumanoidSelectEMPGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectEMPGrenade>
+	<HumanoidSelectShieldGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectShieldGrenade>
 	<HumanoidSwitchToRechargeTool>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1735,6 +1774,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidConflictContextualUIButton>
+	<EnableMenuGroupsOnFoot Value="0" />
 	<StoreEnableRotation>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
