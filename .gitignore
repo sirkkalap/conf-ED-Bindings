@@ -45,9 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-StartPreset.start
-StartPreset.start
 *.log
-BindingLoadingErrors.log
-BindingLoadingErrors.log
-StartPreset.start
+
+/.idea/
