@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Petes-SaitekX52 IV" MajorVersion="4" MinorVersion="0">
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
 	<KeyboardLayout>fi-FI</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
@@ -565,11 +565,11 @@
 	</ExplorationFSSEnter>
 	<UI_Up>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="SaitekX52" Key="Joy_POV1Down" />
+		<Secondary Device="SaitekX52" Key="Joy_POV1Up" />
 	</UI_Up>
 	<UI_Down>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="SaitekX52" Key="Joy_POV1Up" />
+		<Secondary Device="SaitekX52" Key="Joy_POV1Down" />
 	</UI_Down>
 	<UI_Left>
 		<Primary Device="Keyboard" Key="Key_A" />
@@ -585,7 +585,9 @@
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX52" Key="Joy_4">
+			<Modifier Device="SaitekX52" Key="Joy_6" />
+		</Secondary>
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="Keyboard" Key="Key_Acute" />
@@ -1130,6 +1132,10 @@
 		<Primary Device="Keyboard" Key="Key_Numpad_9" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraNine>
+	<VanityCameraTen>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</VanityCameraTen>
 	<FreeCamToggleHUD>
 		<Primary Device="SaitekX52" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1544,7 +1550,17 @@
 			<Hold Value="1" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
 	</HumanoidItemWheelButton>
+	<HumanoidEmoteWheelButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</HumanoidEmoteWheelButton>
+	<HumanoidUtilityWheelCycleMode>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidUtilityWheelCycleMode>
 	<HumanoidItemWheelButton_XAxis>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
@@ -1685,6 +1701,10 @@
 		<Primary Device="Keyboard" Key="Key_E" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleMissionHelpPanelButton>
+	<HumanoidPing>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidPing>
 	<GalaxyMapOpen_Humanoid>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1738,4 +1758,36 @@
 		<Primary Device="SaitekX52" Key="Joy_1" />
 		<Secondary Device="Keyboard" Key="Key_Tab" />
 	</StoreToggle>
+	<HumanoidEmoteSlot1>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot1>
+	<HumanoidEmoteSlot2>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot2>
+	<HumanoidEmoteSlot3>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot3>
+	<HumanoidEmoteSlot4>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot4>
+	<HumanoidEmoteSlot5>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot5>
+	<HumanoidEmoteSlot6>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot6>
+	<HumanoidEmoteSlot7>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot7>
+	<HumanoidEmoteSlot8>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidEmoteSlot8>
 </Root>

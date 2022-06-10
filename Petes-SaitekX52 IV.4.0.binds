@@ -564,7 +564,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSEnter>
 	<UI_Up>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_W" />
 		<Secondary Device="SaitekX52" Key="Joy_POV1Up" />
 	</UI_Up>
 	<UI_Down>
