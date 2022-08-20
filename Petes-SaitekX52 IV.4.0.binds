@@ -1649,7 +1649,7 @@
 	</HumanoidSelectPreviousWeaponButton>
 	<HumanoidHideWeaponButton>
 		<Primary Device="DualShock4" Key="Joy_14" />
-		<Secondary Device="28DE11FF" Key="GamePad_Back">
+		<Secondary Device="DualShock4" Key="GamePad_Back">
 			<Modifier Device="DualShock4" Key="Joy_9" />
 		</Secondary>
 	</HumanoidHideWeaponButton>
